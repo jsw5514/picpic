@@ -4,14 +4,16 @@ signup-wrapper {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
-    padding: 0;
-    display: flex;
+    padding: 0;/* 
+    display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    text-align: center;
     width: 80%;
     height: 80%;
 }
-
+signup-wrapper>*{display: inline-block;}
+ 
 /* #회원가입 컨테이너 스타일
 .signup-container {
     margin-top: 80px; 탑바 아래에 여백

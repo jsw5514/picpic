@@ -1,3 +1,10 @@
+<!-- TopBar.jsp -->
+<!-- TODO
+logout() not yet implemented
+css for buttons for logined users needed
+test code should be removed in final version
+all ' username' should be changed to 'id'
+ -->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -39,7 +46,7 @@
 		else{%>
 			<!-- 로그인 사용자에게 표시 -->
 			<div class="auth-buttons">
-				<a href='myPage.jsp'"><%=session.getAttribute("username")%></a></button>
+				<a href="myPage.jsp"><%=session.getAttribute("username")%></a></button>
 				<button onClick="logout()">로그아웃</button>
 				<button onClick="location='favorite.jsp'">favorite</button>
 			</div>
