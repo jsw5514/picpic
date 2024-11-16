@@ -1,4 +1,7 @@
-/* TopBar_v01.css */
+/* TopBar.css */
+/* 추가사항
+logo의 a태그에 관한 스타일 추가
+ */
 @charset "UTF-8";
 
 .top-bar * {
@@ -27,6 +30,13 @@
     font-size: 18px;
     font-weight: bold;
     color: #fff;
+}
+.logo>a{
+	color:white;
+	text-decoration-line: none;
+}
+.logo>a.visited{
+	color:pink;
 }
 
 /* 중앙 검색 바 스타일 */

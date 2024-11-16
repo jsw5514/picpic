@@ -14,19 +14,19 @@
    -->
 <html>
 <head>
-<style>
-	#topBar{
-		text-align: center;
-	}
-	#topBar >*{
-		display: inline-block;
-	}
-</style>
-<script>
-	function logout(){
-		console.log("logout() is not yet implemented");
-	}
-</script>
+	<style>
+		#topBar{
+			text-align: center;
+		}
+		#topBar >*{
+			display: inline-block;
+		}
+	</style>
+	<script>
+		function logout(){
+			console.log("logout() is not yet implemented");
+		}
+	</script>
 </head>
 <body>
 	<div id="topBar">
